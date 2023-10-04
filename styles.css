@@ -1,2 +1,33 @@
 
 /* Your CSS Code here. */
+.nav-bar{
+	padding : 0px;
+	margin : 0px;
+	background-color : #3333
+	overflow: hidden;
+	 list-style-type: none;
+	 padding: 14px 16px;
+	 margin-right: 20px;
+	
+}
+.nav-bar:last-child{
+	 margin-right: 0;
+}
+
+.nav-ul{
+	float: left;
+    margin-right: 20px;
+}
+.nav-bar ul{
+	
+	display : flex ;
+	justify-content: space-between;
+	text-align: 20px;
+    padding: 10px 10px;
+	overflow: hidden;
+	margin-right: 20px;
+	text-decoration: none;
+	list-style-type: none;
+	
+	
+}
